@@ -54,10 +54,16 @@ let cx = ax._pickRandom()
 let cy = ay._pickRandom()
 let dx = bx._pickRandom()
 let dy = by._pickRandom()
+let ex = bx._pickRandom()
+let ey = by._pickRandom()
+let fx = ax._pickRandom()
+let fy = ay._pickRandom()
 basic.forever(function () {
 	
 })
 basic.forever(function () {
     led.plot(cx, cy)
     led.plot(dx, dy)
+    led.plot(ex, ey)
+    led.plot(fx, fy)
 })
